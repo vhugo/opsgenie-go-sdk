@@ -371,6 +371,20 @@ func (cli *OpsGenieClient) ScheduleRotationV2() (*OpsGenieScheduleRotationV2Clie
 	return scheduleRotationClient, nil
 }
 
+// CustomerLog instantiates a new OpsGenieCustomerLogClient
+func (cli *OpsGenieClient) CustomerLog() (*OpsGenieCustomerLogClient, error) {
+	cli.makeHTTPTransportSettings()
+
+	customerLogClient := new(OpsGenieCustomerLogClient)
+	customerLogClient.SetOpsGenieClient(*cli)
+
+	if cli.opsGenieAPIURL == "" {
+		customerLogClient.SetOpsGenieAPIUrl(endpointURL)
+	}
+
+	return customerLogClient, nil
+}
+
 // buildCommonRequestProps is an internal method to set common properties of requests that will send to OpsGenie.
 func (cli *OpsGenieClient) buildCommonRequestProps() goreq.Request {
 	if cli.httpTransportSettings == nil {
