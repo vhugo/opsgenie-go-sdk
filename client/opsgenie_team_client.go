@@ -3,8 +3,8 @@ package client
 import (
 	"errors"
 
-	"github.com/opsgenie/opsgenie-go-sdk/team"
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
+	"github.com/vhugo/opsgenie-go-sdk/team"
+	"github.com/vhugo/opsgenie-go-sdk/logging"
 )
 
 const (

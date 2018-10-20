@@ -2,8 +2,8 @@ package client
 
 import (
 	"errors"
-	"github.com/opsgenie/opsgenie-go-sdk/heartbeat"
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
+	"github.com/vhugo/opsgenie-go-sdk/heartbeat"
+	"github.com/vhugo/opsgenie-go-sdk/logging"
 	"time"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/opsgenie/opsgenie-go-sdk/alerts"
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
+	"github.com/vhugo/opsgenie-go-sdk/alerts"
+	ogcli "github.com/vhugo/opsgenie-go-sdk/client"
 	"strings"
 	"strconv"
 )

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2"
+	"github.com/vhugo/opsgenie-go-sdk/alertsv2"
 )
 
 func TestCreateAlertRequest(t *testing.T) {

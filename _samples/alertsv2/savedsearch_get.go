@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
+	"github.com/vhugo/opsgenie-go-sdk/_samples/constants"
 	"fmt"
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2/savedsearches"
+	ogcli "github.com/vhugo/opsgenie-go-sdk/client"
+	"github.com/vhugo/opsgenie-go-sdk/alertsv2/savedsearches"
 )
 
 func main() {

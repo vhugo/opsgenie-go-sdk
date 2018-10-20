@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
-	"github.com/opsgenie/opsgenie-go-sdk/schedulev2"
+	"github.com/vhugo/opsgenie-go-sdk/_samples/constants"
+	"github.com/vhugo/opsgenie-go-sdk/schedulev2"
 	"fmt"
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
+	ogcli "github.com/vhugo/opsgenie-go-sdk/client"
 )
 
 func main() {

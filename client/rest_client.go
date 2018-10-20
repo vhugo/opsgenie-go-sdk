@@ -2,7 +2,7 @@ package client
 
 import (
 	"github.com/franela/goreq"
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
+	"github.com/vhugo/opsgenie-go-sdk/logging"
 	"errors"
 	"net/url"
 	"strconv"

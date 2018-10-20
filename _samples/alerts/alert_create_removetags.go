@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/opsgenie/opsgenie-go-sdk/alerts"
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
-	samples "github.com/opsgenie/opsgenie-go-sdk/_samples"
-	"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
+	"github.com/vhugo/opsgenie-go-sdk/alerts"
+	ogcli "github.com/vhugo/opsgenie-go-sdk/client"
+	samples "github.com/vhugo/opsgenie-go-sdk/_samples"
+	"github.com/vhugo/opsgenie-go-sdk/_samples/constants"
 )
 
 func main(){

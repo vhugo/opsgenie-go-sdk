@@ -45,8 +45,8 @@ import (
 
 	"github.com/franela/goreq"
 	goquery "github.com/google/go-querystring/query"
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2"
+	"github.com/vhugo/opsgenie-go-sdk/logging"
+	"github.com/vhugo/opsgenie-go-sdk/alertsv2"
 	"path/filepath"
 )
 
